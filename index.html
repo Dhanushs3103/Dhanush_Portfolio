@@ -43,6 +43,9 @@
             <li class="nav-item">
               <a href="#contact" class="nav-link contact">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="#" id="navResumeDownload" class="nav-link">Resume</a>
+            </li>
           </ul>
         </div>
 
@@ -63,9 +66,10 @@
           </h2>
 
           <a
-            href="https://drive.google.com/file/d/1yNZuVuJC0WlyY0odLHtex75itkliRkgn/view?usp=sharing"
+            href="#"
             target="_blank"
             class="button"
+            id="downloadResume"
             >Resume</a
           >
         </div>
@@ -214,31 +218,13 @@
                 />
                 <span class="skills-name">Express.js</span>
               </div>
-              <!-- <div class="skills-bar skills-express"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">85%</span>
-              </div> -->
             </div>
             <div class="skills-data">
               <div class="skills-names">
                 <i class="bx bxl-nodejs skills-icon"></i>
                 <span class="skills-name">Node.js</span>
               </div>
-              <!-- <div class="skills-bar skills-node"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">85%</span>
-              </div> -->
             </div>
-            <!-- <div class="skills-data">
-              <div class="skills-names">
-                <img class="skills-icon" src="./assets/img/mysql.png" alt="" />
-                <span class="skills-name">MySQL</span>
-              </div> -->
-            <!-- <div class="skills-bar skills-sql"></div> -->
-            <!-- <div>
-                <span class="skills-percentage">65%</span>
-              </div> -->
-            <!-- </div> -->
             <div class="skills-data">
               <div class="skills-names">
                 <img
@@ -248,10 +234,7 @@
                 />
                 <span class="skills-name">MongoDB</span>
               </div>
-              <!-- <div class="skills-bar skills-mongo"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">80%</span>
-              </div> -->
+               
             </div>
           </div>
 
@@ -423,7 +406,8 @@
 
     <!--===== FOOTER + CONTACT=====-->
     <footer class="footer section" id="contact">
-      <h2 class="section-title">Get in touch</h2>
+     <div id="footerDiv">
+       <h2 class="section-title">Get in touch</h2>
       <p class="footer-title">Dhanush S</p>
       <div class="footer-social">
         <a
@@ -461,6 +445,7 @@
         >
       </div>
       <p>&#169; 2024 copyright all right reserved</p>
+     </div>
     </footer>
 
     <!--===== MAIN JS =====-->
