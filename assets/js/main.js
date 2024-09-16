@@ -61,12 +61,12 @@ document
     e.preventDefault();
     const downloadLink = document.createElement("a");
     downloadLink.href = "./assets/docs/DhanushS-FullStackWebDeveloper.pdf";
-    downloadLink.download = "DhanushS-FullStackWebDeveloper.pdf";
+    downloadLink.download ="DhanushS-FullStackWebDeveloper.pdf";
     downloadLink.click();
 
     // Open the Google Drive link in a new tab
     window.open(
-      "https://drive.google.com/file/d/1yNZuVuJC0WlyY0odLHtex75itkliRkgn/view?usp=sharing",
+      "https://drive.google.com/file/d/1oOtNduEpxy-MpqtnVYd7P0qrGOUrnJaD/view?usp=sharing",
       "_blank"
     );
   });
