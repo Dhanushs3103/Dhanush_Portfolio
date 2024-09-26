@@ -45,10 +45,11 @@ document
     downloadLink.click();
 
     // Open the Google Drive link in a new tab
-    window.open(
-      "https://drive.google.com/file/d/1oOtNduEpxy-MpqtnVYd7P0qrGOUrnJaD/view?usp=sharing",
-      "_blank"
-    );
+    setTimeout(() => {
+      window.open(
+        "https://drive.google.com/file/d/1qffBiA2O8WkJydDDI0pQwVn6KpIzpCHF/view?usp=drive_link"
+      );
+    }, 1000);
   });
 
 /*===== Resume download =====*/
@@ -61,14 +62,15 @@ document
     e.preventDefault();
     const downloadLink = document.createElement("a");
     downloadLink.href = "./assets/docs/DhanushS-FullStackWebDeveloper.pdf";
-    downloadLink.download ="DhanushS-FullStackWebDeveloper.pdf";
+    downloadLink.download = "DhanushS-FullStackWebDeveloper.pdf";
     downloadLink.click();
 
     // Open the Google Drive link in a new tab
-    window.open(
-      "https://drive.google.com/file/d/1oOtNduEpxy-MpqtnVYd7P0qrGOUrnJaD/view?usp=sharing",
-      "_blank"
-    );
+    setTimeout(() => {
+      window.open(
+        "https://drive.google.com/file/d/1qffBiA2O8WkJydDDI0pQwVn6KpIzpCHF/view?usp=drive_link"
+      );
+    }, 1000);
   });
 
 /*===== Resume download =====*/
